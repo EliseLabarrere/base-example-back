@@ -14,7 +14,7 @@ const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
         info: {
-            title: 'baseexample-back',
+            title: 'base-example-back',
             version: '1.0.0'
         },
         servers: [
