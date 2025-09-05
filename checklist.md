@@ -28,16 +28,6 @@ OAUTH_DISCORD_CLIENT_SECRET=yyy
 OAUTH_CALLBACK_URL=https://ton-backend.com/api/auth/oauth/callback
 ```
 
-### 📧 USE_MAIL – Système d'e-mails
-Envoi automatique d’e-mails lors de :
-- ✅ Création de compte
-    - À l’utilisateur
-    - Aux admins
-- 🛑 Modification de données personnelles
-    - Avertissement envoyé avec lien de vérification
-- 🔑 Réinitialisation de mot de passe
-    - Lien sécurisé envoyé à l’e-mail
-
 ### 💬 USE_FEEDBACK – Formulaire d’évolution / feedback
 Création d’une table feedbacks avec les champs suivants :
 | Champ       | Type      | Description                                       |

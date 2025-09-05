@@ -30,6 +30,22 @@ module.exports = (sequelize) => {
     isAdmin: {
       type: DataTypes.BOOLEAN,
       defaultValue: false
+    },
+    resetPasswordToken: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    resetPasswordExpires: {
+      type: DataTypes.DATE,
+      allowNull: true
+    },
+    secretQuestion: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    secretAnswer: {
+      type: DataTypes.STRING,
+      allowNull: true
     }
   }, {
     timestamps: true
